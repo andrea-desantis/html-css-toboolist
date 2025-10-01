@@ -1,0 +1,72 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* utilities */
+.bg-gray{
+    background-color: rgb(240, 238, 238);
+}
+
+
+
+.bg-white{
+    background-color: white;
+}
+
+
+/* layout */
+header{
+    padding: 20px;
+}
+
+.title{
+    display:inline;
+    vertical-align: middle;
+    
+}
+
+main{
+    width: 80%;  
+
+    /* debug */
+    /* border: 1px solid black; */
+    
+}
+
+.margin{
+    margin-bottom: 30px;
+}
+
+nav{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+hr{
+    color: rgb(240, 238, 238);
+    height: 2px;
+}
+
+/* Bottoni */
+.bt-blue{
+    background-color: rgb(40, 157, 252);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(40, 157, 252);
+    text-decoration: none;
+}
+
+.bt-gray{
+    color: rgb(201, 199, 199);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 10px;
+    text-decoration: none;
+}
