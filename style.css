@@ -53,11 +53,15 @@ section.bg-gray{
     height: 2px;
 }
 
+
 /* Bottoni */
 .bt-blue{
     background-color: rgb(40, 157, 252);
     padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin: 10px;
+    margin-right: 1px;
     display: inline-block;
     color: white;
     border-radius: 10px;
@@ -70,7 +74,10 @@ section.bg-gray{
 .bt-gray{
     color: rgb(201, 199, 199);
     padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin: 10px;
+    margin-left: 1px;
     display: inline-block;
     border: 1px solid rgb(201, 199, 199);
     border-radius: 10px;
