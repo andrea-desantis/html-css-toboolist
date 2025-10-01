@@ -98,7 +98,8 @@ span.circle{
 }
 
 .circle.red{
-    background-color: rgb(255, 22, 22);
+    border-color: rgb(255, 22, 22);
+    color: rgb(255, 22, 22);
 }
 
 /* post-it */
