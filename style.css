@@ -39,13 +39,17 @@ main{
 .margin{
     margin-bottom: 30px;
 }
-
+.padding{
+    padding: 40px;
+}
 nav{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding-left: 25px;
+    
 }
-hr{
-    color: rgb(240, 238, 238);
+
+section.bg-gray{
     height: 2px;
 }
 
@@ -59,6 +63,8 @@ hr{
     border-radius: 10px;
     border: 1px solid rgb(40, 157, 252);
     text-decoration: none;
+    height: 35px;
+    vertical-align: middle;
 }
 
 .bt-gray{
@@ -69,4 +75,69 @@ hr{
     border: 1px solid rgb(201, 199, 199);
     border-radius: 10px;
     text-decoration: none;
+    height: 35px;
+    vertical-align: middle;
+}
+
+/* circle */
+.circle{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+span.circle{
+    text-align: center;
+}
+.circle.green{
+    border-color: rgb(74, 245, 74);
+    color: rgb( 74, 245, 74);
+}
+
+.circle.red{
+    background-color: rgb(255, 22, 22);
+}
+
+/* post-it */
+
+.ovale{
+    color: white;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+.ovale.blue{
+    background-color: rgb(40, 157, 252);
+    border-color: rgb(40, 157, 252);
+}
+
+.ovale.violet{
+    background-color: violet;
+    border-color: violet;
+}
+
+.ovale.water{
+    background-color: rgb(52, 226, 168);
+    border-color: rgb(52, 226, 168);
+}
+.ovale.orange{
+    background-color: orange;
+    border-color: orange;
+}
+
+.ovale.pink{
+    background-color: palevioletred;
+    border-color: palevioletred;
+}
+.ovale.green{
+    background-color: greenyellow;
+    border-color: greenyellow;
 }
